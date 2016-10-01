@@ -23,8 +23,7 @@ public class TreePanel extends JComponent implements MouseListener{
 	
 	private static final long serialVersionUID = 1L;
 
-	//Minimum length that stops the recursive function made of a certain number
-	//of pixels
+	//Minimum length that stops the recursive function made of a certain number of pixels
 	private int MINIMUM_LENGTH = 20;
 	
 	//Angle use to draw each line from
