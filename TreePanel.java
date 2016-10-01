@@ -77,8 +77,8 @@ public class TreePanel extends JComponent implements MouseListener{
 			
 			//Method call to the recursive function to draw tree
 			drawLimbs(new Point(		//New Point that is in the center of the screen and at the bottom of it
-								this.getWidth()/2,
-								this.getHeight()),
+								this.getWidth()/2,		// Sets the x point to the middle of the of the x-axis
+								this.getHeight()),		// Sets the y point to the bottom of the screen or y-axis
 								LENGTHNEW,		//This is the starting trunk length that the user inputs in the textfield
 								90,		//This is the starting angle which the main trunk starts out as and then uses the angle inputted by user
 								(Graphics2D)g		//This is used to draw "thick" lines to mimic an actual trunk
